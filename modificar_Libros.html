@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosLibros.css">
+    <title>Alta_libros</title>
+</head>
+<body>
+    <header>
+        <a href="https://fundacionloyola.com/vguadalupe/" target="_blank"><img src="img/logoEVG.png" alt=""></a>
+        <nav>
+            <a href="">Manual de Reserva</a>
+            <a href="">Reserva Presencial</a>
+        </nav>
+    </header>
+   <main>
+    <a type="button" href="listaLibros.html" id="volver"><img src="img\undo_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" id="imgVolver"></a>
+        <h1>Modificar Libros</h1>
+        <form>
+            <div id="cajaForm">
+                <label for="titulo">Título</label><br/>
+                <input type="text" placeholder="Título" name="Título"><br/> 
+
+                <label for="isbn">ISBN</label><br/>
+                <input type="text" placeholder="ISBN" name="isbn"><br/>
+
+                <label for="editorial">Editorial</label>
+                <select id="editorial" name="Editorial">
+                    <option value="santillana">Santillana</option>
+                    <option value="anaya">Anaya Educacion</option>
+                    <option value="oxford">Oxford</option>
+                    <option value="edelvives">Edelvives</option>
+                    <option value="bruño">Bruño</option>
+                    <option value="teide">Teide</option>
+                    <option value="marfil">Marfil</option>
+                </select>
+                <br/>
+            </div>
+            <input type="submit" value="Enviar" id="enviar">
+        </form>
+    </main>
+    <footer>
+        <p>Escuela Virgen de Guadalupe</p>
+        <p>Grupo 2</p>
+    </footer>
+   <div>
